@@ -117,3 +117,15 @@ ol.page-in-list > li {
 ol.page-in-list > li::after {
     content: "";
 }
+
+.dark code {
+    display: inline-block;
+    background-color: #2b303b;
+    padding: 0.2em 0.4em;
+    border-radius: 6px;
+    font-size: 85%;
+}
+
+.dark code::before, .dark code::after {
+    content: "";
+}
